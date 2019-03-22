@@ -24,4 +24,11 @@ module.exports = {
   externals: {
     jquery: 'jQuery',
   },
+  devServer: {
+    contentBase: [
+      path.join(__dirname, 'demo'),
+      path.join(__dirname, 'node_modules/jquery/dist'),
+    ],
+    watchContentBase: true,
+  },
 };

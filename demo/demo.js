@@ -4,8 +4,4 @@ document.addEventListener('DOMContentLoaded', function() {
     'Hello demo js!';
 
   myLibrary.helloWebpack();
-
-  myLibrary.helloBabel();
-
-  myLibrary.helloJqueryExternal();
 });
