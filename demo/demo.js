@@ -1,7 +1,9 @@
 'use strict';
 document.addEventListener('DOMContentLoaded', function() {
   document.getElementsByClassName('hello-demo-js')[0].textContent =
-    'Hello demo JS!';
+    'Hello demo js!';
 
   myLibrary.helloWebpack();
+
+  myLibrary.helloJqueryExternal();
 });
