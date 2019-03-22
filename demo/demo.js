@@ -5,5 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   myLibrary.helloWebpack();
 
+  myLibrary.helloBabel();
+
   myLibrary.helloJqueryExternal();
 });
